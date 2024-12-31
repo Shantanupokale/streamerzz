@@ -3,9 +3,9 @@ import { FOOTER_CONTENT } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-neutral-200 py-5">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-8">
+    <footer className="bg-black text-neutral-200 py-5 ">
+      <div className="max-w-7xl mx-auto px-4 ">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-between gap-8 border-t border-gray-800  pt-9">
           {FOOTER_CONTENT.sections.map((section) => (
             <div key={section.title} className="flex flex-col min-w-[250px] flex-1">
               <h3 className="text-sm font-bold mb-4">{section.title}</h3>
